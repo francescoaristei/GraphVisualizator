@@ -5,7 +5,7 @@ The app allows the users to the MyDrive account.
 It allows to download the files representing the 3D model in .glb format and to visualize it via ARCore framework.
 Before utilizing the Drive API it is necessary to identify the app, generating a client ID.
 To access MyDrive, visualize the files in it and download them an Activity class (FileActivity) has been created.
-This Activity utilizes utility classes, written in Kotlin language.
+This Activity utilizes utility classes.
 The chosen file is download in the Download directory of the device.
 
 
