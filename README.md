@@ -9,7 +9,7 @@ This Activity utilizes utility classes, written in Kotlin language.
 The chosen file is download in the Download directory of the device.
 
 
-![Screenshot1](./screenshot2.PNG "Screenshot1")
+![Screenshot1](./screenshot1.PNG "Screenshot1")
 
 ### ARCore and Sceneform
 
@@ -20,7 +20,7 @@ duties are:
 - Identify the planes of the physical world, allowing to change the position and dimension of the virtual element inserted in the scene
 
 
-![Screenshot1](./screenshot2.PNG "Screenshot1")
+![Screenshot2](./screenshot2.PNG "Screenshot2")
 
 Now the Sceneform framework is used to load the 3D model and insert it in the real contest.
 The buildModel(File file) method is called.
