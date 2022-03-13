@@ -82,9 +82,10 @@ addNodeToScene(Anchor anchor, ModelRenderable renderable) method to add the mode
 ```java
 public void addNodeToScene(Anchor anchor, ModelRenderable renderable){
    AnchorNode anchorNode = new AnchorNode(anchor);
-  TransformableNode node = new                             TransformableNode(fragment.getTransformationSystem());
+  TransformableNode node = new TransformableNode(fragment.getTransformationSystem());
    node.setRenderable(renderable);
-   node.setParent(anchorNode);          fragment.getArSceneView().getScene().addChild(anchorNode);
+   node.setParent(anchorNode); 
+   fragment.getArSceneView().getScene().addChild(anchorNode);
 node.select();
 }
 
